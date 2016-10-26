@@ -22,4 +22,5 @@ pandoc -S -o $FILENAME.odt $FILENAME.md
 echo "Converting from markdown to PDF..."
 pandoc -S -o $FILENAME.pdf $FILENAME.md
 
+# Indicate that files have been converted
 echo "Converted $FILENAME to HTML, DOCX, ODT, PDF"
